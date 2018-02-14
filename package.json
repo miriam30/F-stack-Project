@@ -1,0 +1,40 @@
+{
+  "name": "veggify",
+  "version": "1.0.0",
+  "description": "Get veggie recipes of your favorites",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriam30/F-stack-Project.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "express"
+  ],
+  "author": "Miriam Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.0",
+    "jquery": "^3.1.1",
+    "mysql": "^2.15.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/miriam30/F-stack-Project/issues"
+  },
+  "homepage": "https://github.com/miriam30/F-stack-Project#readme"
+}
